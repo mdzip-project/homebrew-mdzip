@@ -2,8 +2,8 @@ cask "mdzip-studio" do
   # The release workflow in mdzip-project/mdzip-studio (bump-tap.yml) rewrites
   # `version` and `sha256` on every published release. The all-zero sha256 below
   # is a placeholder until the first automated bump; do not install from it.
-  version "1.7.0"
-  sha256 "966237873f827c5c31faefad4644face42181995a0be5ccd9314130183bec85c"
+  version "1.8.0"
+  sha256 "1da5726c766b342f52bed4d1efa6c144f7a4fc75b451319ccb7cd4b149f24618"
 
   url "https://github.com/mdzip-project/mdzip-studio/releases/download/v#{version}/MDZip-Studio-#{version}-universal.dmg"
   name "MDZip Studio"
